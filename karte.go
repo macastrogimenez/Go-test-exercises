@@ -108,11 +108,12 @@ func main() {
 			number := nums[i]
 			switch suit {
 			case "P":
-				if P[number] == 0 {
-					P[number] = number
-					P[0] += 1
+				if P[number] == 0 { // if the value of the index for this card in its suit is 0,
+					// 	then it has not been previously added
+					P[number] = number // we change the value from 0 to its index
+					P[0] += 1          // index 0 is the counter of cards in each suit
 				} else {
-					Greska = true
+					Greska = true // else, the card has already been added to the deck
 				}
 			case "K":
 				if K[number] == 0 {
@@ -140,7 +141,7 @@ func main() {
 				panic("some input is not a valid suit")
 			}
 		}
-		cardsMissingInP := strconv.Itoa(13 - P[0])
+		cardsMissingInP := strconv.Itoa(13 - P[0]) // 13 = the total number of cards - card counter for every suit
 		cardsMissingInK := strconv.Itoa(13 - K[0])
 		cardsMissingInH := strconv.Itoa(13 - H[0])
 		cardsMissingInT := strconv.Itoa(13 - T[0])
