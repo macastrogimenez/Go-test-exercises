@@ -27,3 +27,14 @@ In my solution for the card deck checker in karte.go, I used several key program
 - Error Handling: I checked for invalid input and duplicate cards, and I output "GRESKA" when necessary.
 - Input/Output: I read input from the user and printed the results to the console.
 - Type Conversion: I converted strings to integers for card numbers and back to strings for output.
+
+## 21/09/2025 - TCP Handshake exercise 
+
+In this code, I've demonstrated my understanding of:
+
+- Network protocols by implementing a TCP three-way handshake simulation
+Go's concurrent programming features through my use of goroutines and channels
+- Distributed systems principles, showing I know how to handle message passing and state between client/server
+- Clean coding practices with modular organization and proper error handling
+
+Finally, the implementation shows I'm comfortable with both Go programming concepts and fundamental distributed systems principles.
