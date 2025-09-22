@@ -28,7 +28,7 @@ In my solution for the card deck checker in karte.go, I used several key program
 - Input/Output: I read input from the user and printed the results to the console.
 - Type Conversion: I converted strings to integers for card numbers and back to strings for output.
 
-## 21/09/2025 - TCP Handshake exercise 
+## 21/09/2025 - TCP Handshake exercise
 
 In this code, I've demonstrated my understanding of:
 
